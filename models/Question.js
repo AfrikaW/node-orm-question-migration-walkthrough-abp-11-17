@@ -9,7 +9,7 @@ class Question{
       content TEXT)`
       db.run(sql, function(){
         resolve("questions table created")
-      })      
+      })
     })
   }
 }
