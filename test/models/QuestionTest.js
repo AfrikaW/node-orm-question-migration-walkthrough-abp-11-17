@@ -2,7 +2,7 @@
 
 const { expect } = require('chai');
 
-const db = require('../../config/db');
+
 
 const db = require("../config/db")
 
