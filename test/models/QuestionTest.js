@@ -4,6 +4,13 @@ const { expect } = require('chai');
 
 const db = require('../../config/db');
 
+class Question{
+  static CreateTable() {
+  }
+}
+
+module.exports = Question;
+
 const Question = require('../../models/Question');
 
 function getTableInfo(tableName){
